@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zurück zur App</title>
+<style>body{font-family:system-ui,sans-serif;text-align:center;padding:48px 24px}a{display:inline-block;margin-top:24px;padding:14px 28px;background:#1f6feb;color:#fff;border-radius:12px;text-decoration:none;font-weight:600}</style></head>
+<body><h2>Anmeldung erfolgreich</h2><p>Du wirst zur Vokabeltrainer-App zurückgeleitet …</p>
+<a id="back" href="#">Zur App zurückkehren</a>
+<script>
+// Google leitet hierher zurück (Token im URL-Fragment) – wir reichen es per App-Link an die Android-App weiter.
+const link = "de.vokabeltrainer.app://auth" + location.hash;
+document.getElementById("back").href = link;
+location.replace(link);
+</script></body></html>
