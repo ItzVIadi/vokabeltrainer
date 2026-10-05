@@ -74,3 +74,7 @@ nav#nav.hidden { display: none; }
 .dots { letter-spacing: 2px; color: var(--accent); font-size: .8rem; white-space: nowrap; }
 .list .item { display: flex; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid var(--line); }
 .list .item:last-child { border: 0; }
+.must { display: inline-block; font-size: .7rem; font-weight: 700; background: var(--accent); color: var(--accent-text); border-radius: 8px; padding: 1px 7px; margin-left: 4px; vertical-align: middle; }
+.rule summary { list-style: none; }
+.rule .ex { border-left: 3px solid var(--line); padding-left: 10px; margin: 8px 0; }
+nav#nav button { font-size: .85rem; }
