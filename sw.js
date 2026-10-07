@@ -1,5 +1,5 @@
 // Offline-Cache: App-Dateien werden beim ersten Laden gespeichert. Version erhöhen, wenn sich Dateien ändern.
-const CACHE = "vokabel-d50b6dac";
+const CACHE = "vokabel-32352b82";
 const FILES = ["./", "index.html", "style.css", "app.min.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => {
