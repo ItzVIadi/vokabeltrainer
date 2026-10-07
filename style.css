@@ -49,7 +49,7 @@ textarea { resize: vertical; box-sizing: border-box; }
 summary { cursor: pointer; }
 .bar { height: 10px; background: var(--line); border-radius: 6px; overflow: hidden; }
 .bar > i { display: block; height: 100%; background: var(--accent); transition: width .25s; }
-.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 8px; text-align: center; }
 .stats b { display: block; font-size: 1.4rem; }
 label.f { display: block; font-size: .85rem; color: var(--muted); margin: 12px 0 6px; }
 nav#nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--card); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
@@ -57,6 +57,11 @@ nav#nav button { flex: 1; border: 0; background: none; padding: 14px 4px; color:
 nav#nav button.on { color: var(--accent); }
 nav#nav.hidden { display: none; }
 /* Quiz */
+.q-task { display: table; margin: 4px auto 0; max-width: 100%; padding: 7px 16px; border-radius: 999px; font-weight: 700; font-size: 1.05rem; text-align: center; }
+.k-tr { background: rgba(31, 111, 235, .14); color: var(--accent); }
+.k-verb { background: rgba(13, 148, 136, .16); color: #0f9d8e; }
+.k-pl { background: rgba(26, 158, 85, .16); color: var(--good); }
+.k-opp { background: rgba(217, 138, 0, .2); color: var(--near); }
 .q-label { color: var(--muted); font-size: .85rem; text-align: center; }
 .q-prompt { font-size: 2rem; font-weight: 700; text-align: center; margin: 18px 0 6px; word-break: break-word; }
 .q-hint { text-align: center; font: 600 1.3rem ui-monospace, Consolas, monospace; letter-spacing: .15em; min-height: 1.9rem; color: var(--near); }
