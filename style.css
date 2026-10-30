@@ -89,7 +89,11 @@ nav#nav button { font-size: .85rem; }
 .pct.mid { color: #b06000; }
 .pct.lo { color: #188038; }
 
-.q-img { font-size: 3.6rem; line-height: 1.1; text-align: center; margin: 4px 0 0; }
+.q-img { text-align: center; margin: 4px 0 0; }
+.q-img img { width: 84px; height: 84px; object-fit: contain; }
+.q-img img[src^="data:"] { width: 160px; height: 120px; object-fit: cover; border-radius: 12px; }
+.thumb { width: 36px; height: 36px; object-fit: cover; border-radius: 6px; }
+.easy { margin-top: 6px; color: var(--muted); }
 
 .dlg-back { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 60; display: flex; align-items: center; justify-content: center; padding: 12px; }
 .dlg { background: var(--card); color: var(--text); border-radius: 16px; padding: 16px; width: 100%; max-width: 600px; max-height: 92vh; overflow: auto; }
@@ -100,3 +104,6 @@ nav#nav button { font-size: .85rem; }
 .dup-row.diff { background: var(--near-bg); border-radius: 6px; padding: 2px 6px; }
 .dup-opts { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; font-size: .9rem; }
 .dup-opts label { display: flex; align-items: center; gap: 4px; }
+.item .row { flex-wrap: wrap; justify-content: flex-end; }
+.chk { display: flex; gap: 10px; align-items: center; margin: 8px 0; }
+.chk input { width: 20px; height: 20px; flex: none; }
