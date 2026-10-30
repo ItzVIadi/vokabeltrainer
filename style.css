@@ -94,6 +94,12 @@ nav#nav button { font-size: .85rem; }
 .q-img img[src^="data:"] { width: 160px; height: 120px; object-fit: cover; border-radius: 12px; }
 .thumb { width: 36px; height: 36px; object-fit: cover; border-radius: 6px; }
 .easy { margin-top: 6px; color: var(--muted); }
+.item .row { flex-wrap: wrap; justify-content: flex-end; }
+.chk { display: flex; gap: 10px; align-items: center; margin: 8px 0; }
+.chk input { width: 20px; height: 20px; flex: none; }
+.rsd { margin: -2px 0 10px 30px; color: var(--muted); font-size: 0.9rem; }
+.rsd summary { cursor: pointer; color: var(--accent); }
+.rsd[open] summary { margin-bottom: 4px; }
 
 .dlg-back { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 60; display: flex; align-items: center; justify-content: center; padding: 12px; }
 .dlg { background: var(--card); color: var(--text); border-radius: 16px; padding: 16px; width: 100%; max-width: 600px; max-height: 92vh; overflow: auto; }
@@ -104,6 +110,8 @@ nav#nav button { font-size: .85rem; }
 .dup-row.diff { background: var(--near-bg); border-radius: 6px; padding: 2px 6px; }
 .dup-opts { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; font-size: .9rem; }
 .dup-opts label { display: flex; align-items: center; gap: 4px; }
-.item .row { flex-wrap: wrap; justify-content: flex-end; }
-.chk { display: flex; gap: 10px; align-items: center; margin: 8px 0; }
-.chk input { width: 20px; height: 20px; flex: none; }
+.rsrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.rsrow .chk { flex: 1; }
+.lockbtn { flex: none; background: none; border: 1px solid var(--line); border-radius: 10px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--muted); cursor: pointer; }
+.rsrow.locked .lockbtn { color: var(--accent-text); background: var(--accent); border-color: var(--accent); }
+.rsrow.locked .chk { opacity: .5; }
