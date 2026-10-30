@@ -115,3 +115,6 @@ nav#nav button { font-size: .85rem; }
 .lockbtn { flex: none; background: none; border: 1px solid var(--line); border-radius: 10px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--muted); cursor: pointer; }
 .rsrow.locked .lockbtn { color: var(--accent-text); background: var(--accent); border-color: var(--accent); }
 .rsrow.locked .chk { opacity: .5; }
+.rsl-box { margin: 0 0 8px 30px; }
+.rsl-box summary { cursor: pointer; color: var(--accent); }
+.rsl-box .chk { margin: 6px 0; }
