@@ -89,7 +89,9 @@ nav#nav button { font-size: .85rem; }
 .pct.mid { color: #b06000; }
 .pct.lo { color: #188038; }
 
-.q-img { font-size: 3.6rem; line-height: 1.1; text-align: center; margin: 4px 0 0; }
+.q-img { text-align: center; margin: 4px 0 0; }
+.q-img img { width: 84px; height: 84px; }
+.easy { margin-top: 6px; color: var(--muted); }
 
 .dlg-back { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 60; display: flex; align-items: center; justify-content: center; padding: 12px; }
 .dlg { background: var(--card); color: var(--text); border-radius: 16px; padding: 16px; width: 100%; max-width: 600px; max-height: 92vh; overflow: auto; }
