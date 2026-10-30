@@ -107,3 +107,6 @@ nav#nav button { font-size: .85rem; }
 .item .row { flex-wrap: wrap; justify-content: flex-end; }
 .chk { display: flex; gap: 10px; align-items: center; margin: 8px 0; }
 .chk input { width: 20px; height: 20px; flex: none; }
+.rsd { margin: -2px 0 10px 30px; color: var(--muted); font-size: 0.9rem; }
+.rsd summary { cursor: pointer; color: var(--accent); }
+.rsd[open] summary { margin-bottom: 4px; }
