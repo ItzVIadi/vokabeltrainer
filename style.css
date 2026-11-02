@@ -118,3 +118,5 @@ nav#nav button { font-size: .85rem; }
 .rsl-box { margin: 0 0 8px 30px; }
 .rsl-box summary { cursor: pointer; color: var(--accent); }
 .rsl-box .chk { margin: 6px 0; }
+.tap { flex: 1; cursor: pointer; }
+.list .item .row { flex-wrap: wrap; justify-content: flex-end; align-items: center; }
