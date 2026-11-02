@@ -120,3 +120,6 @@ nav#nav button { font-size: .85rem; }
 .rsl-box .chk { margin: 6px 0; }
 .tap { flex: 1; cursor: pointer; }
 .list .item .row { flex-wrap: wrap; justify-content: flex-end; align-items: center; }
+.chk { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+.chk input { width: 20px; height: 20px; }
+.pron { color: var(--muted); margin-top: 6px; }
