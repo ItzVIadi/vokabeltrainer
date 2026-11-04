@@ -44,7 +44,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .seg button { flex: 1; border: 0; background: var(--card); padding: 11px 6px; font-size: .92rem; }
 .seg button + button { border-left: 1px solid var(--line); }
 .seg button.on { background: var(--accent); color: var(--accent-text); font-weight: 600; }
-select, textarea, input[type=time], input[type=text], input[type=number] { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; width: 100%; }
+select, textarea, input[type=time], input[type=text], input[type=search], input[type=number] { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; width: 100%; }
 textarea { resize: vertical; box-sizing: border-box; }
 summary { cursor: pointer; }
 .bar { height: 10px; background: var(--line); border-radius: 6px; overflow: hidden; }
@@ -123,3 +123,14 @@ nav#nav button { font-size: .85rem; }
 .chk { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
 .chk input { width: 20px; height: 20px; }
 .pron { color: var(--muted); margin-top: 6px; }
+.rep-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rep-deck{display:flex;flex-direction:column;gap:2px;text-align:left;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);font:inherit}
+.rep-deck.rep-new{align-items:center;justify-content:center;color:var(--accent)}
+.rep-ico{font-size:1.6rem}
+.rep-err{color:#c33;margin-top:10px;font-weight:600}
+.rep-type{display:block;text-align:left;margin-top:8px}
+.rep-type.on{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.rep-thumb{height:36px;width:36px;object-fit:cover;border-radius:8px;vertical-align:middle;margin-right:8px}
+.rep-ok{color:var(--good,#2a7);font-weight:600;margin:8px 0}
+label .q-input, .card .q-input, #r-filter { font-size: 1rem; text-align: left; margin: 4px 0 8px; }
+.rep-more { margin: 10px 0 0; } .rep-more summary { cursor: pointer; color: var(--accent); font-size: .9rem; padding: 6px 0; }
