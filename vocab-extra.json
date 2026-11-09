@@ -1,0 +1,775 @@
+{
+ "version": 1,
+ "cards": [
+  {
+   "id": "f-1",
+   "type": "word",
+   "easy": "to be good to the world",
+   "easy2": "to act in a way that does not harm the world around us",
+   "pron": "tu täik ker ow dhi in-WAI-ren-ment",
+   "de": [
+    "auf die Umwelt achten"
+   ],
+   "en": [
+    "to take care of the environment",
+    "take care of the environment"
+   ],
+   "ex": "We take care of the environment when we sort our rubbish.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-2",
+   "type": "word",
+   "easy": "to change things for the better",
+   "easy2": "to have a good effect on a situation or on other people",
+   "pron": "tu mäik e DI-fe-rens",
+   "de": [
+    "etwas bewirken"
+   ],
+   "en": [
+    "to make a difference",
+    "make a difference"
+   ],
+   "ex": "One person can make a difference.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-3",
+   "type": "word",
+   "easy": "to change something a lot",
+   "easy2": "to have a strong effect on someone or something",
+   "pron": "tu häw en IM-päkt on",
+   "de": [
+    "Einfluss haben auf"
+   ],
+   "en": [
+    "to have an impact on",
+    "have an impact on"
+   ],
+   "ex": "Plastic has an impact on the oceans.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-4",
+   "type": "word",
+   "easy": "to start to do something",
+   "easy2": "to begin to do something about a problem",
+   "pron": "tu täik ÄK-schen",
+   "de": [
+    "aktiv werden",
+    "handeln"
+   ],
+   "en": [
+    "to take action",
+    "take action"
+   ],
+   "ex": "We must take action now.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-5",
+   "type": "word",
+   "easy": "to keep animals and plants safe",
+   "easy2": "to keep animals, plants and forests safe from harm",
+   "pron": "tu pro-TEKT NÄI-tscher",
+   "de": [
+    "die Natur schützen"
+   ],
+   "en": [
+    "to protect nature",
+    "protect nature"
+   ],
+   "ex": "We should protect nature.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-6",
+   "type": "word",
+   "easy": "to know about something",
+   "easy2": "to know that something exists or is important",
+   "pron": "tu bi e-UÄR ow",
+   "de": [
+    "sich einer Sache bewusst sein"
+   ],
+   "en": [
+    "to be aware of",
+    "be aware of"
+   ],
+   "ex": "Many people are aware of the problem.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-7",
+   "type": "word",
+   "easy": "to tell people about a problem",
+   "easy2": "to make more people know about an important problem",
+   "pron": "tu räis e-UÄR-nes",
+   "de": [
+    "Bewusstsein schaffen"
+   ],
+   "en": [
+    "to raise awareness",
+    "raise awareness"
+   ],
+   "ex": "The campaign wants to raise awareness.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-8",
+   "type": "word",
+   "easy": "to try to fix problems",
+   "easy2": "to do something to handle difficult situations",
+   "pron": "tu diil uith PRO-blems",
+   "de": [
+    "mit Problemen umgehen"
+   ],
+   "en": [
+    "to deal with problems",
+    "deal with problems"
+   ],
+   "ex": "We have to deal with problems together.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-9",
+   "type": "word",
+   "easy": "to use fewer bags and bottles",
+   "easy2": "to use a smaller amount of plastic than before",
+   "pron": "tu kat daun on PLÄS-tik",
+   "de": [
+    "Plastik reduzieren"
+   ],
+   "en": [
+    "to cut down on plastic",
+    "cut down on plastic"
+   ],
+   "ex": "I try to cut down on plastic.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-10",
+   "type": "word",
+   "easy": "to try to find ways to fix a problem",
+   "easy2": "to search for ways to solve a problem",
+   "pron": "tu luk for se-LUU-schens",
+   "de": [
+    "nach Lösungen suchen"
+   ],
+   "en": [
+    "to look for solutions",
+    "look for solutions"
+   ],
+   "ex": "Scientists look for solutions to climate change.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-11",
+   "type": "word",
+   "easy": "to say: I will do it, and it is my job",
+   "easy2": "to accept that you must do something and that you are the one who must act",
+   "pron": "tu täik ri-spon-si-BI-li-ti",
+   "de": [
+    "Verantwortung übernehmen"
+   ],
+   "en": [
+    "to take responsibility",
+    "take responsibility"
+   ],
+   "ex": "Everyone must take responsibility for the planet.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-12",
+   "type": "word",
+   "easy": "to have to look after something",
+   "easy2": "to be the person who must take care of something",
+   "pron": "tu bi ri-SPON-si-bel for",
+   "de": [
+    "verantwortlich sein für"
+   ],
+   "en": [
+    "to be responsible for",
+    "be responsible for"
+   ],
+   "ex": "We are responsible for our rubbish.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-13",
+   "type": "word",
+   "easy": "to be in a bad and dangerous place",
+   "easy2": "to be in a situation where something bad could happen",
+   "pron": "tu bi in DÄIN-dscher",
+   "de": [
+    "in Gefahr sein"
+   ],
+   "en": [
+    "to be in danger",
+    "be in danger"
+   ],
+   "ex": "Many animals are in danger.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-14",
+   "type": "word",
+   "easy": "to have no more of it",
+   "easy2": "to use all of something so that there is none left",
+   "pron": "tu ran aut ow SAM-ßing",
+   "de": [
+    "etwas geht aus",
+    "etwas wird knapp"
+   ],
+   "en": [
+    "to run out of something",
+    "run out of something"
+   ],
+   "ex": "We are running out of water.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-15",
+   "type": "word",
+   "easy": "to be there and do it with others",
+   "easy2": "to join an event or an activity with other people",
+   "pron": "tu täik part in",
+   "de": [
+    "teilnehmen an"
+   ],
+   "en": [
+    "to take part in",
+    "take part in"
+   ],
+   "ex": "Many students take part in the project.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-16",
+   "type": "word",
+   "easy": "to think something bad may happen",
+   "easy2": "to feel afraid that something bad may happen",
+   "pron": "tu bi UA-rid e-BAUT",
+   "de": [
+    "sich Sorgen machen über"
+   ],
+   "en": [
+    "to be worried about",
+    "be worried about"
+   ],
+   "ex": "I am worried about the climate.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-17",
+   "type": "word",
+   "easy": "to need something or someone",
+   "easy2": "to need something or someone in order to live or work",
+   "pron": "tu di-PEND on",
+   "de": [
+    "abhängen von"
+   ],
+   "en": [
+    "to depend on",
+    "depend on"
+   ],
+   "ex": "Farmers depend on the weather.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-18",
+   "type": "word",
+   "easy": "to help the earth",
+   "easy2": "to have a good effect on the earth and nature",
+   "pron": "tu bi gud for dhe PLÄ-net",
+   "de": [
+    "gut für den Planeten sein"
+   ],
+   "en": [
+    "to be good for the planet",
+    "be good for the planet"
+   ],
+   "ex": "Cycling is good for the planet.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-19",
+   "type": "word",
+   "easy": "to think about other people",
+   "easy2": "to think about other people and want to help them",
+   "pron": "tu ker e-BAUT A-dhers",
+   "de": [
+    "sich um andere kümmern"
+   ],
+   "en": [
+    "to care about others",
+    "care about others"
+   ],
+   "ex": "Good friends care about others.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-21",
+   "type": "word",
+   "easy": "to do something with other people",
+   "easy2": "to work with other people to reach the same goal",
+   "pron": "tu uörk tu-GE-dher",
+   "de": [
+    "zusammenarbeiten"
+   ],
+   "en": [
+    "to work together",
+    "work together"
+   ],
+   "ex": "Countries must work together.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-22",
+   "type": "word",
+   "easy": "to stop using something that you like",
+   "easy2": "to decide not to have or do something that you like",
+   "pron": "tu giw ap SAM-ßing",
+   "de": [
+    "auf etwas verzichten"
+   ],
+   "en": [
+    "to give up something",
+    "give up something"
+   ],
+   "ex": "I gave up meat for the planet.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-23",
+   "type": "word",
+   "easy": "to get better, little by little",
+   "easy2": "to improve slowly and move closer to a goal",
+   "pron": "tu mäik PROU-gres",
+   "de": [
+    "Fortschritte machen"
+   ],
+   "en": [
+    "to make progress",
+    "make progress"
+   ],
+   "ex": "We are making progress.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-24",
+   "type": "word",
+   "easy": "to think of new ideas",
+   "easy2": "to think of new plans or ideas",
+   "pron": "tu kamm ap uith ai-DI-es",
+   "de": [
+    "Ideen entwickeln"
+   ],
+   "en": [
+    "to come up with ideas",
+    "come up with ideas"
+   ],
+   "ex": "Students come up with ideas for the school.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-25",
+   "type": "word",
+   "easy": "to learn something new",
+   "easy2": "to get information and learn new facts about something",
+   "pron": "tu faind aut e-BAUT",
+   "de": [
+    "etwas herausfinden über"
+   ],
+   "en": [
+    "to find out about",
+    "find out about"
+   ],
+   "ex": "I want to find out about fair trade.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-26",
+   "type": "word",
+   "easy": "to ask someone to help you",
+   "easy2": "to ask other people to come and help you",
+   "pron": "tu kol for help",
+   "de": [
+    "um Hilfe bitten"
+   ],
+   "en": [
+    "to call for help",
+    "call for help"
+   ],
+   "ex": "People in danger call for help.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-27",
+   "type": "word",
+   "easy": "to make people meet and be friends",
+   "easy2": "to make different people meet and work as one group",
+   "pron": "tu bring PI-pel tu-GE-dher",
+   "de": [
+    "Menschen zusammenbringen"
+   ],
+   "en": [
+    "to bring people together",
+    "bring people together"
+   ],
+   "ex": "Sport can bring people together.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-28",
+   "type": "word",
+   "easy": "to plan for the time that comes",
+   "easy2": "to plan and care about what will happen later",
+   "pron": "tu ßink e-BAUT dhe FJUU-tscher",
+   "de": [
+    "an die Zukunft denken"
+   ],
+   "en": [
+    "to think about the future",
+    "think about the future"
+   ],
+   "ex": "We must think about the future.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-29",
+   "type": "word",
+   "easy": "to start to do things so that something happens",
+   "easy2": "to begin to do things in order to reach a goal",
+   "pron": "tu täik ßteps tu",
+   "de": [
+    "Maßnahmen ergreifen, um"
+   ],
+   "en": [
+    "to take steps to",
+    "take steps to"
+   ],
+   "ex": "The government takes steps to protect the climate.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-30",
+   "type": "word",
+   "easy": "to help to fix the problem",
+   "easy2": "to help to fix a problem instead of making it bigger",
+   "pron": "tu bi part ow dhe se-LUU-schen",
+   "de": [
+    "Teil der Lösung sein"
+   ],
+   "en": [
+    "to be part of the solution",
+    "be part of the solution"
+   ],
+   "ex": "Be part of the solution, not part of the problem.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-31",
+   "type": "word",
+   "easy": "to try hard so that all people are safe and free",
+   "easy2": "to work hard so that all people are treated in a fair way",
+   "pron": "tu fait for HJUU-men raits",
+   "de": [
+    "für Menschenrechte kämpfen"
+   ],
+   "en": [
+    "to fight for human rights",
+    "fight for human rights"
+   ],
+   "ex": "She fights for human rights.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-32",
+   "type": "word",
+   "easy": "to help people who left their country",
+   "easy2": "to help and protect people who had to leave their country",
+   "pron": "tu luk AF-ter re-fju-DSCHIIS",
+   "de": [
+    "sich um Flüchtlinge kümmern"
+   ],
+   "en": [
+    "to look after refugees",
+    "look after refugees"
+   ],
+   "ex": "Many volunteers look after refugees.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-33",
+   "type": "word",
+   "easy": "to want a life that is good",
+   "easy2": "to try to find a place where life is easier and safer",
+   "pron": "tu ßörtsch for e BE-ter laif",
+   "de": [
+    "nach einem besseren Leben suchen"
+   ],
+   "en": [
+    "to search for a better life",
+    "search for a better life"
+   ],
+   "ex": "Many people search for a better life abroad.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-34",
+   "type": "word",
+   "easy": "to go and live in another country",
+   "easy2": "to leave your country and live in a different one",
+   "pron": "tu muuw e-BROD",
+   "de": [
+    "ins Ausland ziehen"
+   ],
+   "en": [
+    "to move abroad",
+    "move abroad"
+   ],
+   "ex": "She wants to move abroad.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-35",
+   "type": "word",
+   "easy": "to start a new life",
+   "easy2": "to start again and make a new home and new friends",
+   "pron": "tu bild e njuu laif",
+   "de": [
+    "ein neues Leben aufbauen"
+   ],
+   "en": [
+    "to build a new life",
+    "build a new life"
+   ],
+   "ex": "Refugees build a new life in a new country.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-36",
+   "type": "word",
+   "easy": "to get a job",
+   "easy2": "to get a job so that you have money",
+   "pron": "tu faind uörk",
+   "de": [
+    "Arbeit finden"
+   ],
+   "en": [
+    "to find work",
+    "find work"
+   ],
+   "ex": "It is hard to find work.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-37",
+   "type": "word",
+   "easy": "to begin with nothing",
+   "easy2": "to start again with nothing at all",
+   "pron": "tu start from SII-rou",
+   "de": [
+    "ganz von vorne anfangen"
+   ],
+   "en": [
+    "to start from zero",
+    "start from zero"
+   ],
+   "ex": "Many refugees have to start from zero.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-39",
+   "type": "word",
+   "easy": "to do something that can go wrong",
+   "easy2": "to do something that could be dangerous or go wrong",
+   "pron": "tu täik e risk",
+   "de": [
+    "ein Risiko eingehen"
+   ],
+   "en": [
+    "to take a risk",
+    "take a risk"
+   ],
+   "ex": "They take a risk when they cross the sea.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-40",
+   "type": "word",
+   "easy": "to run away from fighting",
+   "easy2": "to leave a place where there is fighting in order to be safe",
+   "pron": "tu is-KÄIP from uor",
+   "de": [
+    "vor dem Krieg fliehen"
+   ],
+   "en": [
+    "to escape from war",
+    "escape from war"
+   ],
+   "ex": "Many families escape from war.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-41",
+   "type": "word",
+   "easy": "to help one another",
+   "easy2": "to give help to one another",
+   "pron": "tu help iitsch A-dher",
+   "de": [
+    "einander helfen"
+   ],
+   "en": [
+    "to help each other",
+    "help each other"
+   ],
+   "ex": "Neighbours help each other.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-42",
+   "type": "word",
+   "easy": "to do the job together",
+   "easy2": "to give each person a part of the job",
+   "pron": "tu schär ri-spon-si-BI-li-ti",
+   "de": [
+    "Verantwortung teilen"
+   ],
+   "en": [
+    "to share responsibility",
+    "share responsibility"
+   ],
+   "ex": "Countries share responsibility for refugees.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-43",
+   "type": "word",
+   "easy": "to use sun and wind for power",
+   "easy2": "to use power from the sun, wind or water that never runs out",
+   "pron": "tu juus ri-NJUU-e-bel E-ner-dschi",
+   "de": [
+    "erneuerbare Energie nutzen"
+   ],
+   "en": [
+    "to use renewable energy",
+    "use renewable energy"
+   ],
+   "ex": "We should use renewable energy.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-44",
+   "type": "word",
+   "easy": "to keep the weather of the earth safe",
+   "easy2": "to stop the earth from getting too warm",
+   "pron": "tu pro-TEKT dhe KLAI-met",
+   "de": [
+    "das Klima schützen"
+   ],
+   "en": [
+    "to protect the climate",
+    "protect the climate"
+   ],
+   "ex": "We must protect the climate.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-45",
+   "type": "word",
+   "easy": "to use less power",
+   "easy2": "to use less electricity and heat",
+   "pron": "tu säiw E-ner-dschi",
+   "de": [
+    "Energie sparen"
+   ],
+   "en": [
+    "to save energy",
+    "save energy"
+   ],
+   "ex": "Turn off the light to save energy.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-46",
+   "type": "word",
+   "easy": "to make less dirty air",
+   "easy2": "to send less dirty gas from cars and factories into the air",
+   "pron": "tu ri-DJUUS i-MI-schens",
+   "de": [
+    "Emissionen verringern"
+   ],
+   "en": [
+    "to reduce emissions",
+    "reduce emissions"
+   ],
+   "ex": "Cars must reduce emissions.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-47",
+   "type": "word",
+   "easy": "to pay people the right money for their work",
+   "easy2": "to buy things in a way that gives workers a fair price",
+   "pron": "tu ße-PORT fär träid",
+   "de": [
+    "den fairen Handel unterstützen"
+   ],
+   "en": [
+    "to support fair trade",
+    "support fair trade"
+   ],
+   "ex": "I support fair trade.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-48",
+   "type": "word",
+   "easy": "to give the right money for things",
+   "easy2": "to pay a price that is right for the people who made the thing",
+   "pron": "tu päi fär PRAI-ßis",
+   "de": [
+    "faire Preise zahlen"
+   ],
+   "en": [
+    "to pay fair prices",
+    "pay fair prices"
+   ],
+   "ex": "Shops should pay fair prices.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-49",
+   "type": "word",
+   "easy": "to make work better",
+   "easy2": "to make the place and the rules at work better for workers",
+   "pron": "tu im-PRUUW UÖR-king ken-DI-schens",
+   "de": [
+    "Arbeitsbedingungen verbessern"
+   ],
+   "en": [
+    "to improve working conditions",
+    "improve working conditions"
+   ],
+   "ex": "The company wants to improve working conditions.",
+   "list": "12 FOE Prüfung"
+  },
+  {
+   "id": "f-50",
+   "type": "word",
+   "easy": "to say that something is right",
+   "easy2": "to speak and act for something that you think is right",
+   "pron": "tu ständ ap for SAM-ßing",
+   "de": [
+    "sich für etwas einsetzen"
+   ],
+   "en": [
+    "to stand up for something",
+    "stand up for something"
+   ],
+   "ex": "I stand up for my friends.",
+   "list": "12 FOE Prüfung"
+  }
+ ]
+}
