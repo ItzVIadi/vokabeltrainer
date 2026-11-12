@@ -40,9 +40,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .btn { border: 0; border-radius: 12px; padding: 14px 18px; background: var(--accent); color: var(--accent-text); font-weight: 600; width: 100%; }
 .btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--line); }
 .btn.small { width: auto; padding: 8px 12px; font-size: .9rem; }
-.seg { display: flex; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-.seg button { flex: 1; border: 0; background: var(--card); padding: 11px 6px; font-size: .92rem; }
-.seg button + button { border-left: 1px solid var(--line); }
+.seg { display: flex; flex-wrap: wrap; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.seg button { flex: 1 1 auto; min-width: 0; border: 0; background: var(--card); padding: 11px 8px; font-size: .92rem; }   /* umbrechen statt abschneiden (schmale Handys, 6 Abfragearten) */
 .seg button.on { background: var(--accent); color: var(--accent-text); font-weight: 600; }
 select, textarea, input[type=time], input[type=text], input[type=search], input[type=number] { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; width: 100%; }
 textarea { resize: vertical; box-sizing: border-box; }
@@ -134,3 +133,12 @@ nav#nav button { font-size: .85rem; }
 .rep-ok{color:var(--good,#2a7);font-weight:600;margin:8px 0}
 label .q-input, .card .q-input, #r-filter { font-size: 1rem; text-align: left; margin: 4px 0 8px; }
 .rep-more { margin: 10px 0 0; } .rep-more summary { cursor: pointer; color: var(--accent); font-size: .9rem; padding: 6px 0; }
+.wd { margin-top: 6px; line-height: 1.6; }
+.wd s { color: var(--bad); text-decoration: line-through; }
+.wd b.want { color: var(--good); }
+.wd b.miss { color: var(--near); }
+
+.pct-parts { font-size: .8rem; color: var(--muted, #667); margin-top: 2px; }
+.pct-parts .pct { min-width: 0; font-size: .8rem; }
+/* Vokabelliste auf schmalen Bildschirmen: Text ueber die ganze Breite, Knoepfe darunter */
+@media (max-width: 520px) { .list .item.vrow { flex-wrap: wrap; } .list .item.vrow .tap { flex: 1 1 100%; } .list .item.vrow .row { flex: 1 1 100%; } }
