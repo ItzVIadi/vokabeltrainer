@@ -24,7 +24,8 @@
    "easy2": "to have a good effect on a situation or on other people",
    "pron": "tu mäik e DI-fe-rens",
    "de": [
-    "etwas bewirken"
+    "etwas bewirken",
+    "einen Unterschied machen"
    ],
    "en": [
     "to make a difference",
@@ -302,7 +303,13 @@
    ],
    "en": [
     "to care about others",
-    "care about others"
+    "care about others",
+    "to care for others",
+    "care for others",
+    "to take care of others",
+    "take care of others",
+    "to look after others",
+    "look after others"
    ],
    "ex": "Good friends care about others.",
    "list": "12 FOE Prüfung"
@@ -390,17 +397,19 @@
   {
    "id": "f-26",
    "type": "word",
-   "easy": "to ask someone to help you",
-   "easy2": "to ask other people to come and help you",
-   "pron": "tu kol for help",
+   "easy": "to tell someone that you need them",
+   "easy2": "to tell another person that you cannot do something alone",
+   "pron": "tu aask for help",
    "de": [
     "um Hilfe bitten"
    ],
    "en": [
+    "to ask for help",
+    "ask for help",
     "to call for help",
     "call for help"
    ],
-   "ex": "People in danger call for help.",
+   "ex": "If you do not understand the task, ask for help.",
    "list": "12 FOE Prüfung"
   },
   {
@@ -574,7 +583,9 @@
    ],
    "en": [
     "to start from zero",
-    "start from zero"
+    "start from zero",
+    "to start from scratch",
+    "start from scratch"
    ],
    "ex": "Many refugees have to start from zero.",
    "list": "12 FOE Prüfung"
@@ -606,7 +617,11 @@
    ],
    "en": [
     "to escape from war",
-    "escape from war"
+    "escape from war",
+    "to flee from war",
+    "flee from war",
+    "to flee war",
+    "flee war"
    ],
    "ex": "Many families escape from war.",
    "list": "12 FOE Prüfung"
