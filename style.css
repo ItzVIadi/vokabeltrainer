@@ -28,7 +28,9 @@
 .badge b, .badge span { display: block; } .badge span { font-size: .8rem; color: var(--muted); }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-#app { max-width: 560px; margin: 0 auto; padding: 16px 16px 96px; }
+/* Android 15+ und iPhone zeichnen die App bis unter die Statusleiste: oben und seitlich den geschuetzten Rand freilassen (--safe-area-* setzt Capacitor, env() der Browser) */
+:root { --sa-top: max(var(--safe-area-inset-top, 0px), env(safe-area-inset-top, 0px)); --sa-bottom: max(var(--safe-area-inset-bottom, 0px), env(safe-area-inset-bottom, 0px)); }   /* der groessere der beiden Werte: je nach Android-Version liefert nur einer den echten Rand */
+#app { max-width: 560px; margin: 0 auto; padding: calc(16px + var(--sa-top)) 16px calc(96px + var(--sa-bottom)); }
 h1 { font-size: 1.4rem; margin: 4px 0 12px; }
 h2 { font-size: 1.05rem; margin: 20px 0 8px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 12px; }
@@ -51,7 +53,7 @@ summary { cursor: pointer; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 8px; text-align: center; }
 .stats b { display: block; font-size: 1.4rem; }
 label.f { display: block; font-size: .85rem; color: var(--muted); margin: 12px 0 6px; }
-nav#nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--card); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
+nav#nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--card); border-top: 1px solid var(--line); padding-bottom: var(--sa-bottom); }
 nav#nav button { flex: 1; border: 0; background: none; padding: 14px 4px; color: var(--muted); font-weight: 600; }
 nav#nav button.on { color: var(--accent); }
 nav#nav.hidden { display: none; }
@@ -142,3 +144,13 @@ label .q-input, .card .q-input, #r-filter { font-size: 1rem; text-align: left; m
 .pct-parts .pct { min-width: 0; font-size: .8rem; }
 /* Vokabelliste auf schmalen Bildschirmen: Text ueber die ganze Breite, Knoepfe darunter */
 @media (max-width: 520px) { .list .item.vrow { flex-wrap: wrap; } .list .item.vrow .tap { flex: 1 1 100%; } .list .item.vrow .row { flex: 1 1 100%; } }
+
+/* Wiederhol-Trainer: Vorschau der Wiederholungen und schwierigste Karten */
+.fc-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.fc-day { flex: 0 0 3.6em; font-size: .9rem; }
+.fc-bar { flex: 1 1 auto; min-width: 0; }
+.fc-n { flex: 0 0 2em; text-align: right; }
+.hard-row { display: flex; justify-content: space-between; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.hard-row:last-of-type { border-bottom: 0; }
+.hard-q { min-width: 0; overflow-wrap: anywhere; }
+.hard-row .muted { white-space: nowrap; }
