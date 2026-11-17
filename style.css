@@ -142,6 +142,11 @@ label .q-input, .card .q-input, #r-filter { font-size: 1rem; text-align: left; m
 
 .pct-parts { font-size: .8rem; color: var(--muted, #667); margin-top: 2px; }
 .pct-parts .pct { min-width: 0; font-size: .8rem; }
+/* Vom Nutzer als richtig gemeldete Antworten: Chip mit ✕ zum Entfernen */
+.added-row { margin-top: 4px; font-size: .85rem; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+.chip-added { display: inline-flex; align-items: center; gap: 4px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 1px 4px 1px 10px; color: var(--text); }
+.chip-x { border: 0; background: transparent; color: var(--muted); font-size: .9rem; line-height: 1; min-width: 28px; min-height: 28px; border-radius: 50%; cursor: pointer; }
+.chip-x:hover, .chip-x:focus-visible { background: var(--line); color: var(--text); }
 /* Vokabelliste auf schmalen Bildschirmen: Text ueber die ganze Breite, Knoepfe darunter */
 @media (max-width: 520px) { .list .item.vrow { flex-wrap: wrap; } .list .item.vrow .tap { flex: 1 1 100%; } .list .item.vrow .row { flex: 1 1 100%; } }
 
